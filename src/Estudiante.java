@@ -1,11 +1,11 @@
-
-class Estudiantes extends Persona {
+public class Estudiante extends Persona {
     private String carrera;
 
-    public Estudiantes(String nombre, int edad, String carrera) {
+    public Estudiante(String nombre, int edad, String carrera) {
         super(nombre, edad);
         this.carrera = carrera;
     }
+
     public String getCarrera() {
         return carrera;
     }
@@ -16,4 +16,4 @@ class Estudiantes extends Persona {
                 "', edad=" + getEdad() +
                 ", carrera='" + carrera + "'}";
     }
-
+}
